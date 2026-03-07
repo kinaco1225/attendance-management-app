@@ -43,7 +43,7 @@
 --- 
 
 ## ER図
-[er_diagram.drawio](https://github.com/user-attachments/files/25814271/er_diagram.drawio)
+<img width="641" height="571" alt="er_diagram" src="https://github.com/user-attachments/assets/811b9d2d-8b4b-4eaa-aa3d-0638367d9a15" />
 
 ## URL
 - 新規会員登録: http://localhost/register
