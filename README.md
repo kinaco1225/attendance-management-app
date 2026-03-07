@@ -1,4 +1,4 @@
-# 勤怠アプリ
+<img width="641" height="571" alt="er_diagram" src="https://github.com/user-attachments/assets/57152973-604b-4ed7-9456-657b6768d5fa" /># 勤怠アプリ
 
 ## アプリ概要
 本アプリは、従業員の勤怠管理を行うためのWebアプリケーションです。
@@ -58,7 +58,7 @@
 --- 
 
 ## データベース設計（ER図）
-<img width="641" height="571" alt="er_diagram" src="https://github.com/user-attachments/assets/811b9d2d-8b4b-4eaa-aa3d-0638367d9a15" />
+<img width="641" height="571" alt="er_diagram" src="https://github.com/user-attachments/assets/06a68869-a99a-4077-8a9e-191d555a6bbb" />
 
 ## URL
 - 新規会員登録  
