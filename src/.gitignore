@@ -7,10 +7,13 @@
 !.env.example
 
 # Laravel storage
-/storage/logs
-/storage/framework/cache
-/storage/framework/sessions
-/storage/framework/views
+/storage/logs/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+!/storage/framework/cache/.gitignore
+!/storage/framework/sessions/.gitignore
+!/storage/framework/views/.gitignore
 /storage/app/*
 !/storage/app/.gitignore
 !/storage/app/public
@@ -39,4 +42,3 @@ Thumbs.db
 # npm
 npm-debug.log
 yarn-error.log
-
