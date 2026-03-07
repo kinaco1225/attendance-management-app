@@ -1,0 +1,177 @@
+body {
+  background-color: #F0EFF2;
+}
+
+/* ===== コンテナ ===== */
+.attendance-detail {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+/* ===== タイトル ===== */
+.page-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 24px;
+  border-left: 4px solid #000;
+  padding-left: 12px;
+}
+
+/* ===== カードテーブル ===== */
+.detail-table {
+  width: 100%;
+  background: #fff;
+  border-radius: 10px;
+  border-collapse: collapse;
+  overflow: hidden;
+  box-shadow: 0 0 0 1px #e5e5e5;
+  table-layout: fixed;
+}
+
+/* ===== 行ボーダー ===== */
+.detail-table tr {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* ===== 左ラベル ===== */
+.detail-table th {
+  width: 220px;
+  background: #fafafa;
+  color: #666;
+  text-align: left;
+  padding: 22px 40px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+/* ===== 右側 ===== */
+.detail-table td {
+  padding: 22px 60px;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.detail-table td:last-child {
+  padding: 12px 60px;
+}
+
+.name-text {
+  margin-left: 20px;
+}
+
+/* ===== 日付横並び ===== */
+.date-flex {
+  display: flex;
+  justify-content: space-between;
+  max-width: 260px;
+  margin-left: 25px;
+}
+
+/* ===== time入力 ===== */
+.detail-table input[type="time"] {
+  width: 100px;
+  height: 36px;
+  padding: 6px 30px;
+  border: 1px solid #dcdcdc;
+  border-radius: 6px;
+  font-size: 14px;
+  margin: 0;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
+
+.span-from {
+  margin: 0 40px;
+}
+
+.text-span-from {
+  margin: 0 75px;
+}
+
+/* ===== textarea ===== */
+.detail-table textarea {
+  width: 300px;
+  height: 60px;
+  border: 1px solid #dcdcdc;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 8px 10px;
+}
+
+.time-text-left {
+  margin-left: 25px;
+}
+
+.remark-text {
+  margin-left: 25px;
+  font-size: 12px;
+}
+
+/* ===== 〜 の間隔 ===== */
+.detail-table td {
+  vertical-align: middle;
+}
+
+.detail-table td input {
+  margin: 0 10px;
+  font-weight: 700;
+}
+
+/* ===== 〜 の間隔 ===== */
+.detail-table td span,
+.detail-table td {
+  vertical-align: middle;
+}
+
+/* ===== ボタンエリア ===== */
+.button-area {
+  margin-top: 24px;
+  text-align: right;
+}
+
+/* ===== 修正ボタン ===== */
+.btn-black {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 28px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn-gray {
+  background-color: #696969;
+  color: #fff;
+  border: none;
+  padding: 10px 28px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn-black:hover {
+  opacity: 0.8;
+}
+
+/* ===== 承認待ちメッセージ ===== */
+.alert {
+  color: #c00;
+  margin-top: 10px;
+  margin-bottom: 16px;
+  text-align: right;
+}
+
+
+/* ===== エラーメッセージ ===== */
+.error-text {
+  color: #d40000;
+  font-size: 13px;
+  margin-top: 6px;
+}

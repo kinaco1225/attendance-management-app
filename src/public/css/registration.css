@@ -1,0 +1,103 @@
+body {
+  background-color: #F0EFF2;
+}
+
+.attendance-container {
+  min-height: calc(100vh - 64px);
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.attendance-card {
+  width: 100%;
+  max-width: 600px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.attendance-status {
+  display: inline-block;
+  padding: 6px 16px;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+.attendance-date {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.attendance-time {
+  display: inline-block;
+  font-size: 64px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  width: 150px;
+  height: 56px;
+  border: none;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.attendance-button {
+  background-color: #000;
+  color: #fff;
+}
+
+.leaving-button {
+  background-color: #000;
+  color: #fff;
+  margin-right: 50px;
+}
+
+.break-button {
+  background-color: #fff;
+  color: #000;
+}
+
+.attendance-button:hover {
+  opacity: 0.85;
+}
+
+.attendance-finished-message {
+  font-weight: bold;
+}
+
+
+
+.attendance-list-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.month-switch {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.attendance-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.attendance-table th,
+.attendance-table td {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}

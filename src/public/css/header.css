@@ -1,0 +1,57 @@
+.site-header {
+  background: #000;
+  height: 64px;
+  display: flex;
+  align-items: center;
+}
+
+.header-inner {
+  width: 100%;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ロゴ */
+.header-logo {
+  height: 28px;
+  display: flex;
+  align-items: center;
+}
+
+/* 右側メニュー */
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* リンク */
+.header-link {
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* 白ボタン */
+.header-button {
+  background: #fff;
+  color: #000;
+  padding: 6px 20px;
+  border-radius: 4px;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.inline-form {
+  display: inline;
+}
+
+.logout-form {
+  margin-left: 24px;
+}

@@ -1,0 +1,28 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+  background-color: #000;
+  height: 64px;
+  display: flex;
+  align-items: center;
+}
+
+.header-inner {
+  width: 100%;
+  margin: 0;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+}
+
+.header-logo img {
+  height: 28px;
+  width: auto;
+  display: block;
+}

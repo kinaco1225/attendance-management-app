@@ -1,0 +1,131 @@
+body {
+  background-color: #F0EFF2;
+}
+
+.attendance-list-container,
+.request-list-container {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+.page-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 24px;
+  border-left: 4px solid #000;
+  padding-left: 12px;
+}
+
+.request-tabs {
+  display: flex;
+  gap: 80px;
+  padding: 0 40px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #000;
+}
+
+.tab {
+  padding: 10px 0;
+  text-decoration: none;
+  color: #555;
+}
+
+.tab.active {
+  font-weight: bold;
+  color: black;
+}
+
+.date-with-icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  /* アイコンと文字の間 */
+}
+
+.date-with-icon img {
+  width: 20px;
+  height: auto;
+}
+
+.attendance-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.month-switch,
+.day-switch {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.month-switch a,
+.day-switch a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #737373;
+}
+
+.month-switch span,
+.day-switch span {
+  font-weight: bold;
+}
+
+.attendance-table,
+.request-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 10px;
+  color: #737373;
+}
+
+.attendance-table th,
+.attendance-table td,
+.request-table th,
+.request-table td {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+
+
+.detail a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+/* ===== ボタンエリア ===== */
+.button-area {
+  margin-top: 24px;
+  text-align: right;
+}
+
+/* ===== 修正ボタン ===== */
+.btn-black {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 28px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* ===== csv出力ボタン ===== */
+.button-area a {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 28px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: none;
+}
