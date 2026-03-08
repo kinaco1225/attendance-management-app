@@ -27,8 +27,9 @@
 # PHPUnit
 .phpunit.result.cache
 
-# Docker
-docker/mysql/
+# Docker mysql data
+docker/mysql/data/
+docker/mysql/logs
 
 # IDE
 /.idea
